@@ -2,6 +2,7 @@
   "members": [
     {
       "slug": "freddie-mercury",
+      "url": "freddie-mercury.html",
       "name": "Freddie Mercury",
       "instruments": "Vocals, keyboards",
       "tenure": "(1970–1991; his death)",
@@ -13,6 +14,7 @@
     },
     {
       "slug": "brian-may",
+      "url": "brian-may.html",
       "name": "Brian May",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
@@ -24,6 +26,7 @@
     },
     {
       "slug": "roger-taylor",
+      "url": "roger-taylor.html",
       "name": "Roger Taylor",
       "instruments": "Drums, guitar, keyboards, vocals",
       "tenure": "(1970–present)",
@@ -35,6 +38,7 @@
     },
     {
       "slug": "john-deacon",
+      "url": "john-deacon.html",
       "name": "John Deacon",
       "instruments": "Bass, guitar, keyboards",
       "tenure": "(1971–1997)",
