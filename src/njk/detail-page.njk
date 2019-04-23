@@ -1,11 +1,11 @@
 {% extends '_layouts/detail.njk' %}
-{% set book = data.books[1] %}
+{% set member = data.members[1] %}
 
 {% block info %}
-  {{ book.title }}
+  {{ member.name }}
 {% endblock %}
 
-{% block story %}
+{% block text %}
   <h2>Undead: Right column content</h2>
   <p>Zombie ipsum brains reversus ab cerebellum viral inferno, thalamus nam rick mend grimes malum cerveau cerebro.</p>
 {% endblock %}
