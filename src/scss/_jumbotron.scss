@@ -1,10 +1,19 @@
 .jumbotron.banner {
-  background: url(../img/pirate-ship.jpg) no-repeat center;
-  background-size: cover;
-  color: white;
-  padding-top: 12rem
+  // background: url(../img/queen-band-wallpaper.jpg) no-repeat center;
+  // background-size: cover;
+  // color: white;
+  // padding-top: 12rem
+
 }
 
 .jumbotron {
   margin-bottom: 30px;
+  background: url(../img/queen-band-wallpaper.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.jumbotron h1 {
+  font-size: 8rem;
+  font-family: 'Cormorant Garamond', serif;
 }

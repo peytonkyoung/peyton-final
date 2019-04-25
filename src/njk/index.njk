@@ -7,7 +7,7 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12 col-md-8 col-lg-6">
       <h1>Overview</h1>
       <p> 
       Queen are a British rock band formed in London in 1970. Their classic line-up was Freddie Mercury (lead vocals and piano), Brian May (lead guitar and vocals), Roger Taylor (drums and vocals), and John Deacon (bass guitar). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock. 
@@ -18,26 +18,24 @@
       <p>
       The band’s 1977 album News of the World contained "We Will Rock You" and "We Are the Champions", which have become anthems at sporting events. By the early 1980s, Queen were one of the biggest stadium rock bands in the world. "Another One Bites the Dust" (1980) became their best-selling single, while their 1981 compilation album Greatest Hits is the best-selling album in the UK and is certified eight times platinum in the US. Their performance at the 1985 Live Aid concert has been ranked among the greatest in rock history by various publications. In August 1986, Mercury gave his last performance with Queen at Knebworth, England. In 1991, he died of bronchopneumonia, a complication of AIDS, and Deacon retired in 1997. Since 2004, May and Taylor have toured under the "Queen +" name with vocalists Paul Rodgers and Adam Lambert.
       </p>
+      <p>- Source: <a href="https://en.wikipedia.org/wiki/Queen_(band)" target="_blank">Wikipedia</a></p>
     </div>
 
-    <div class="col-sm-12 col-md-6">
-        <h1>Band Members</h1>
+    <div class="col-sm-12 col-md-4 col-lg-6">
+      <h1>Band Members</h1>
         <div class="row">
-          <div class="card">
-            <div class="col-sm-6">
-            {% for member in data.members %}
-            
-              <div class="card" style>
-                <img class="card-img-top" src="../img/members/{{ member.imagebw }}" alt="{{member.slug}}">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">{{member.name}}</h5>
-                  <a href="{{ member.url }}" class="btn btn-light">Read More</a>
-                </div>
-              </div>
-            
-            {% endfor %}
-            </div>
-          </div>
+
+              {% for member in data.members %}
+                <div class="card col-xs-10 col-sm-6 col-md-10 offset-md-0 col-lg-6 offset-lg-0" style>
+                  <img class="card-img-top rounded-circle" src="../img/members/{{ member.imagebw }}" alt="{{member.slug}}">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">{{member.name}}</h5>
+                    <a href="{{ member.url }}" class="btn btn-light">Read More</a>
+                  </div>
+                </div>  
+              {% endfor %}
+
+
         </div>
     </div>
 
@@ -50,7 +48,7 @@
       <ul class="list-unstyled">
         {% for disc in data.discography%}
           <li class="media">
-            <img class="mr-3 mb-3" src="../img/discs/{{ disc.image }}" alt="{{disc.title}}">
+            <img class="disc-art mr-3 mb-3" src="../img/discs/{{ disc.image }}" alt="{{disc.title}}">
             <div class="media-body">
               <h5 class="mt-0 mb-1">{{disc.title}}</h5>
               <p>{{ disc.year }}</p>

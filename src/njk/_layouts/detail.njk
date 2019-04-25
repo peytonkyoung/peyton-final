@@ -22,7 +22,7 @@
     <div class="col-sm-8">
       {% block story %}
         <h1>{{member.name}}</h1>
-        {{member.text}}
+        {{member.text | safe}}
 
       {% endblock %}
 
