@@ -1,3 +1,27 @@
 /* overview */
 
+.card {
+  border: none;
+  padding-bottom: 0px;
+  margin-bottom: -5rem;
+  padding-left: 10px;
+}
 
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.card-img-top {
+  max-height: 66%;
+}
+
+.card-img-overlay {
+
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: 75%;
+    margin-bottom: -8rem;
+  }
+}

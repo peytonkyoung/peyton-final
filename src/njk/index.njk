@@ -26,7 +26,7 @@
         <div class="row">
 
               {% for member in data.members %}
-                <div class="card col-xs-10 col-sm-6 col-md-10 offset-md-0 col-lg-6 offset-lg-0" style>
+                <div class="card col-xs-10 col-sm-6 col-md-10 offset-md-0 col-lg-6 offset-lg-0">
                   <img class="card-img-top rounded-circle" src="../img/members/{{ member.imagebw }}" alt="{{member.slug}}">
                   <div class="card-img-overlay">
                     <h5 class="card-title">{{member.name}}</h5>
@@ -43,8 +43,8 @@
 
   <div class="row">
 
-    <div class="col-sm-10 offset-sm-1">
-      <h2>Discography</h2>
+    <div class="col-sm-12 col-md-10 offset-md-1">
+      <h1>Discography</h1>
       <ul class="list-unstyled">
         {% for disc in data.discography%}
           <li class="media">
