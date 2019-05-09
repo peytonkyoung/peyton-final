@@ -20,16 +20,19 @@ h1, h2, h3 {
 @media (max-width: 575.98px) {
   .card {
     width: 85%;
-    margin-bottom: -6.5rem;
-    padding-left: 15%;
+    margin-bottom: -15rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .card-title {
-    padding-top: 8rem;
+    padding-top: 20rem;
     padding-left: 15%;
+    padding-right: 15%;
   }
   .btn {
     text-align: center;
     margin-left: 15%;
+    margin-right: 15%;
   }
 }
 
@@ -60,7 +63,7 @@ h1, h2, h3 {
 
 @media (min-width: 992px) {
   .card {
-    margin-bottom: -6rem;
+    margin-bottom: -4rem;
   }
   .card-title {
     padding-top: 6rem;
