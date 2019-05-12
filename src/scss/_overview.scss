@@ -20,12 +20,12 @@ h1, h2, h3 {
 @media (max-width: 575.98px) {
   .card {
     width: 85%;
-    margin-bottom: -15rem;
+    margin-top: -3rem;
     padding-left: 10%;
     padding-right: 10%;
   }
   .card-title {
-    padding-top: 20rem;
+    margin-top: 4rem;
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -33,6 +33,9 @@ h1, h2, h3 {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+  }
+  .band-members {
+    margin-bottom: 3rem;
   }
 }
 

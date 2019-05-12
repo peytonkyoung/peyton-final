@@ -1,6 +1,16 @@
 /* discography */
 
 .disc-art {
-  width: 12rem;
-  height: 12rem;
+  width: 250px;
+  height: 250px;
+}
+
+.list-unstyled {
+  display: inline-block;
+}
+
+.media {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
